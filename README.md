@@ -34,10 +34,10 @@ DeCIR leverages pre-trained vision-language models (Qwen3-VL, CLIP, SDXL) in a n
 
 We propose a systematic approach to decompose the composed image retrieval task into interpretable stages:
 
-- **Intent Analysis** (Stage 1): Vision-language model extracts structured edit intent from modification text
-- **Visual Grounding** (Stages 2A-2B): Precise localization of target objects and regions
-- **Localized Editing** (Stages 3-4): Semantic-aware mask generation and SDXL-based inpainting
-- **Dual-modal Fusion** (Stage 9): Novel fusion of global image, text semantics, and visual deltas
+- **Intent Analysis**: Vision-language model extracts structured edit intent from modification text
+- **Visual Grounding**: Precise localization of target objects and regions
+- **Localized Editing**: Semantic-aware mask generation and SDXL-based inpainting
+- **Dual-modal Fusion**: Novel fusion of global image, text semantics, and visual deltas
 
 ### 2. Visual Delta Extraction
 

@@ -1,0 +1,21 @@
+I want you help me do the Composed Image Retrieval (CIR) task.
+Here are some example:
+    reference image: "A white coffee cup on a wooden table."
+    textual modification: "Change the cup color to blue and add a saucer."
+    target image: "A blue coffee cup with a matching saucer on a wooden table."
+
+    reference image: "A man hiking on a forest trail wearing a yellow backpack."
+    textual modification: "Change the backpack to red and make the trail more rocky."
+    target image: "A man with a red backpack hiking on a rocky trail."
+
+    reference image: "A man riding a red bicycle in a park."
+    textual modification: "Make the bicycle blue and show the man wearing a helmet."
+    target image: "A man wearing a helmet, and he is riding a blue bicycle in a park."
+
+I give you a reference image and the textual modification: "{text}".
+I want you answer me the target image description.
+The answer must comply following rules:
+    1. No longer than two sentences.
+    2. Don't use proper noun.
+    3. Be more specific in the description; avoid being too abstract.
+    4. No need to explain, directly describe.

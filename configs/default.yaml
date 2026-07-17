@@ -1,0 +1,58 @@
+# Default configuration for DeCIR
+
+# Model paths
+models:
+  qwen:
+    model_path: "Qwen/Qwen2-VL-7B-Instruct"
+    device: "cuda"
+    max_new_tokens: 256
+    do_sample: false
+
+  clip:
+    model_name: "laion/CLIP-ViT-L-14-laion2B-s32B-b82K"
+    device: "cuda"
+
+  sdxl:
+    model_name: "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+    device: "cuda"
+    dtype: "fp16"
+    num_inference_steps: 30
+    guidance_scale: 7.5
+    strength: 0.99
+    enable_xformers: true
+
+# Pipeline parameters
+pipeline:
+  alpha: 0.6  # Weight for reference image
+  beta: 0.2   # Weight for modification text
+  gamma: 0.2  # Weight for visual delta
+  delta_mode: "diff"  # "diff", "patch", or "none"
+  patch_expand_ratio: 0.15
+
+# Dataset paths (modify according to your setup)
+datasets:
+  cirr:
+    data_root: "data/cirr"
+    splits:
+      train: "train"
+      val: "val"
+      test: "test"
+
+  circo:
+    data_root: "data/circo"
+
+  fashioniq:
+    data_root: "data/fashioniq"
+
+  genecis:
+    data_root: "data/genecis"
+
+# Retrieval parameters
+retrieval:
+  top_k: 50
+  batch_size: 32
+
+# Reranking parameters
+reranking:
+  enabled: false
+  top_k: 10

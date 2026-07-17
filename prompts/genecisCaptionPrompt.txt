@@ -1,0 +1,25 @@
+I want you help me do the Composed Image Retrieval (CIR) task.
+Here are some example:
+    reference image: "A white laptop is placed on a desk."
+    textual modification: "Focus on an Attribute: {attribute}"
+    target image: "The white laptop is on the desk."
+
+    reference image: "A train with a yellow and green."
+    textual modification: "Change an Attribute: {attribute}"
+    target image: "The train with olive green."
+
+    reference image: "A refrigerator is placed in a backyard."
+    textual modification: "Focus on an Object: {object}"
+    target image: "A refrigerator is placed outdoor."
+
+    reference image: "A train on railway tracks in an open area."
+    textual modification: "Change an Object: {object}"
+    target image: "A train on tracks inside a large indoor space with a ceiling."
+
+I give you a reference image and the textual modification: "{text}".
+I want you answer me the target image description.
+The answer must comply following rules:
+    1. No longer than two sentences.
+    2. Don't use proper noun.
+    3. Be more specific in the description; avoid being too abstract.
+    4. No need to explain, directly desribe.

@@ -1,0 +1,82 @@
+Your task is to modify the reference image based on the modification instructions and generate the updated image description. The description should be complete and can cover various semantic aspects, such as cardinality, addition, negation, direct addressing, compare & change, comparative, conjunction, spatial relations & background, viewpoint.
+
+To complete the task accurately, please follow these steps:
+
+### Understand the Reference Image ###
+1. Identify all the objects, attributes, and their relationships in the image.
+2. Pay attention to the spatial relations, background, viewpoint in the image.
+3. Please complete this task step by step.
+
+### Analyze the Modification Instructions ###
+1. Break down the modification instructions into separate modification steps.
+2. Determine which objects or attributes need to be modified and how.
+3. Pay attention to any additions, deletions, or changes to attributes.
+4. Please complete this task step by step.
+
+### Apply the Modifications ###
+1. Apply the modifications step by step to update the content of the reference image.
+
+### Generate the Target Image Caption ###
+1. Write a coherent and concise image caption.
+2. Ensure the caption accurately reflects all the modifications.
+3. The edited caption needs to be as simple as possible.
+4. Do not mention the content that will not be present in the target image.
+
+Here are some examples:
+
+Example 1:
+Reference Image: 
+Modification Text: "Add one more deer and add some sunlight."
+Reasoning:
+### Understand the Reference Image ###
+- The image shows a single brown deer standing in a grassy field.
+- The background is a green grass field.
+### Analyze the Modification Instructions ###
+- "Add one more deer": This implies introducing a second deer into the scene.
+- "Add some sunlight": This implies enhancing the lighting to give the impression of sunlight.
+### Apply the Modifications ###
+1. Introduce a second deer into the scene.
+2. Enhance the lighting to simulate sunlight.
+3. Keep the background as a grassy field.
+### Generate the Target Image Caption ###
+Two deer are standing in a sunlit grassy field.
+
+Example 2:
+Reference Image: 
+Modification Text: "Make it look like jeans and add a ruffled skirt."
+Reasoning:
+### Understand the Reference Image ###
+- The reference image shows a woman wearing a white dress with a black ruffled collar and sheer sleeves.
+### Analyze the Modification Instructions ###
+- "Make it look like jeans": Change the material or color of the dress to a denim style.
+- "Add a ruffled skirt": Modify the lower part of the outfit to have a ruffled hem.
+### Apply the Modifications ###
+1. Change the material of the dress to resemble denim.
+2. Modify the hem to have a ruffled design.
+3. Keep the ruffled neckline from the original image.
+### Generate the Target Image Caption ###
+The woman is wearing a denim-like dress with a ruffled neckline and a ruffled skirt.
+
+Example 3:
+Reference Image: 
+
+[Image of a white carriage with horses pulling it on a street]
+
+Modification Text: "Change the cart to a white, unmanned carriage in daylight with no horses."
+Reasoning:
+### Understand the Reference Image ###
+- A white carriage is being pulled by horses on a street. There are people nearby.
+### Analyze the Modification Instructions ###
+- "Change the cart to a white, unmanned carriage": Ensure the carriage is white and empty.
+- "With no horses": Explicitly remove the horses from the scene.
+- "In daylight": Ensure the lighting reflects daytime.
+### Apply the Modifications ###
+1. The carriage remains white but becomes unmanned.
+2. The horses are removed from the front of the carriage.
+3. The lighting is set to bright daylight.
+### Generate the Target Image Caption ###
+A white, unmanned carriage is moving along a street in daylight.
+
+Current Task:
+Reference Image: [Image Input]
+Modification Text: "{text}"

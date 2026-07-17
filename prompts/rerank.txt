@@ -1,0 +1,3 @@
+I want you help me do the composed image retrieval. Given the reference image (first image) and modified text: "{text}".
+There are some candidate in the second image, please rank all the images in order from most to least likely to be the target image.
+**Just respond with the image IDs, and make sure not to miss any of them.**

@@ -133,13 +133,13 @@ DeCIR/                                      # 项目根目录 / Project root
 │   │   ├── pipeline.py                     # 端到端流水线 / End-to-end pipeline
 │   │   ├── stages/                         # 双模态解耦各阶段 / Dual-modal decoupling stages
 │   │   │   ├── __init__.py
-│   │   │   ├── intent_parser.py            # Stage 1: 意图解析 / Intent parsing
-│   │   │   ├── visual_grounding.py         # Stage 2A: 视觉定位 / Visual grounding
-│   │   │   ├── region_caption.py           # Stage 2B: 区域描述 / Region captioning
-│   │   │   ├── target_rewrite.py           # Stage 2.5: 目标重写 / Target rewriting
-│   │   │   ├── mask_engine.py              # Stage 3: 掩码生成 / Mask generation
-│   │   │   ├── image_edit.py               # Stage 4: 图像编辑（SDXL）/ Image editing (SDXL)
-│   │   │   └── query_builder.py            # Stage 9: 查询构建（核心融合）/ Query builder (core fusion)
+│   │   │   ├── intent_parser.py            # 意图解析 / Intent parsing
+│   │   │   ├── visual_grounding.py         # 视觉定位 / Visual grounding
+│   │   │   ├── region_caption.py           # 区域描述 / Region captioning
+│   │   │   ├── target_rewrite.py           # 目标重写 / Target rewriting
+│   │   │   ├── mask_engine.py              # 掩码生成 / Mask generation
+│   │   │   ├── image_edit.py               # 图像编辑/ Image editing 
+│   │   │   └── query_builder.py            # 查询构建/ Query builder
 │   │   └── utils/                          # 核心工具模块 / Core utilities
 │   │       └── __init__.py
 │   │
